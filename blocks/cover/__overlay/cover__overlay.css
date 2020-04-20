@@ -1,0 +1,16 @@
+.cover__overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+@media screen and (min-width:1024px) {
+  .cover__overlay:hover {
+    background-color: rgba(0, 0, 0, .6);
+  }
+}
